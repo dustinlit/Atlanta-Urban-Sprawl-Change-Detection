@@ -3,6 +3,7 @@
 Author: Dustin Littlefield \
 Date: February 24, 2026 \
  `Remote Sensing` `Change Detection` `Urban Sprawl` `Supervised Classification`
+ <br>
 [GitHub Repository](https://github.com/dustinlit/Atlanta-Urban-Sprawl-Change-Detection)
 
 ## Introduction 
