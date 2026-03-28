@@ -22,7 +22,7 @@ The analysis reveals strong outward expansion into suburban counties, fragmentat
     <strong>Figure 1.</strong> Hot spot analysis of developed forest land conducted with Getis Gi* algorithm. Red hot spots represent statistically significant areas where forest loss is clustered, while blue spots represent areas with low levels of conversion. Highways are overlaid to illustrate spatial relationship between roadways and development.<br>
     <em> Map Author: Dustin Littlefield PCS: WGS 1984 UTM Zone 16N Source: U.S. Geological Survey Landsat 8 Imagery. </em>
   </figcaption>
-  <img src="docs/Figures/figure_5.jpg" width="500">
+  <img src="figure_5.jpg" width="500">
   </figure>
 
 ## Data
@@ -62,7 +62,7 @@ The analysis reveals strong outward expansion into suburban counties, fragmentat
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Figure 2.</strong> Urbanization and reforestation rates throughout the Counties of Atlanta Greater Metropolis Area. Percentage represents ratio of developed forest land in a county to total land classified in the county.<br>
   </figcaption>
-  <img src="docs/Figures/figure_4.jpg" width="500">
+  <img src="figure_4.jpg" width="500">
 </figure>
 
 - Hot spots of development align with major highways (I‑75, I‑85, GA‑19).
@@ -72,7 +72,7 @@ The analysis reveals strong outward expansion into suburban counties, fragmentat
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Table 1.</strong> Land‑use composition (based on 2009 LandPro data) of areas that transitioned from forest to developed land between 1999 and 2021 in the Greater Atlanta metropolitan region.<br>
   </figcaption>
-  <img src="docs/Figures/table_2.jpg" width="350">
+  <img src="table_2.jpg" width="350">
 </figure>
 
 <figure>
