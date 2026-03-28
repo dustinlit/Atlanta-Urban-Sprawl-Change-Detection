@@ -7,7 +7,7 @@
 
 **Author:** Dustin Littlefield
 
-**Project Type:** Remote Sensing & Wildfire Ecology
+**Project Type:** Remote Sensing & Urban Classification
 
 **Tags:** `Wildfire Analysis` `Remote Sensing` `ArcGIS Pro` `Landsat` `Change Detection` `Unsupervised Classification` `Hot Spot Analysis`
 
