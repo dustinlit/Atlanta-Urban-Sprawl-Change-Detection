@@ -37,8 +37,6 @@ More iterations can refine the clusters and reduce randomness or noise. Experime
 ### Unsupervised Classification Results 
 Figure 1 depicts the results of unsupervised classification of the Greater Atlanta Metropolitan region for both target dates. The image from 1999 depicts developed land concentrated in the core counties of the city. Fulton, Cobb, Gwinnett and Clayton counties were mostly developed prior to 1999. The periphery counties show some development, but most have more greenspace than developed land. 
 
-By 2021, the pattern of urban expansion begins to emerge. While the core counties of both images are similar, the peripheries show notable changes. The southern counties further away from the core, Henry, Fayette, and Rockdale have visible increase in development and loss of green space. Counties to the north, Cherokee and Forsyth, also show increased dispersed development and green spaces appear more fragmented.  
-  
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Figure 1.</strong> Unsupervised classification of Atlanta Metropolis region. Imagery for 1999 was obtained from Landsat 7 and processed using 6 spectral bands. Imagery from 2021 was obtained from Landsat 8 and was processed with 7 bands. Clouds were present on 2021 imagery, mostly in southeastern region. None were present in 1999 imagery. <br>
@@ -46,6 +44,8 @@ By 2021, the pattern of urban expansion begins to emerge. While the core countie
   </figcaption>
   <img src="Figures/figure_1.jpg" width="700" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
 </figure>
+
+By 2021, the pattern of urban expansion begins to emerge. While the core counties of both images are similar, the peripheries show notable changes. The southern counties further away from the core, Henry, Fayette, and Rockdale have visible increase in development and loss of green space. Counties to the north, Cherokee and Forsyth, also show increased dispersed development and green spaces appear more fragmented.  
 
 ### Change Detection 
 Change detection is a fundamental remote sensing technique that compares raster values from two time periods to detect the type, magnitude, and location of changes for each individual pixel. It is a powerful analysis technique to analyze trends over time, including vegetative patterns, ecological changes, climate-related changes, and in this study, urban growth patterns.  
@@ -88,10 +88,15 @@ A spatial join was performed with the change detection layer and land use compos
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Table 2.</strong> Land‑use composition (based on 2009 LandPro data) of areas that transitioned from forest to developed land between 1999 and 2021 in the Greater Atlanta metropolitan region. <br>
   </figcaption>
-  <img src="Figures/table_2.jpg" width="350" alt="Land‑use composition">
+  <img src="Figures/table_2.jpg" width="300" alt="Land‑use composition">
 </figure>
 
-Note. Land use categories were derived from the LandPro2009 data and represent the status of development in the midpoint of the change detection. Areas that are still forest lands between 2009 – 2021 are included in Unclassified category. a Includes cemeteries, parks, reservoirs and transportation b Includes transitional land, unclassified land use, and misclassified  land due to moderate 30m resolution of the Landsat 8 Satellite.  
+<p style="font-size:0.85em; margin-top:4px;">
+  <strong>Note.</strong> Land‑use categories reflect 2009 conditions, the midpoint of the change‑detection period. 
+  Areas that remained forested after 2009 are grouped into the Unclassified category.<br>
+  <em>a</em> Includes cemeteries, parks, reservoirs, and transportation.<br>
+  <em>b</em> Includes transitional or unclassified land and possible misclassification due to 30‑m Landsat resolution.
+</p>
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
