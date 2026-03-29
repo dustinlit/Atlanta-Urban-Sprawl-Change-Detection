@@ -1,14 +1,13 @@
 # Atlanta-Urban-Sprawl-Change-Detection
  
-Code
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
-[![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/Atlanta-Urban-Sprawl-Change-Detection/)
-[![Repository](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/dustinlit/Atlanta-Urban-Sprawl-Change-Detection)
+[![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/Pennsylvania-Hydrology-ML-Streamflow-Forecasting/)
+[![Repository](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/dustinlit/Pennsylvania-Hydrology-ML-Streamflow-Forecasting)
 
 **Author:** Dustin Littlefield  
 **Portfolio:** https://github.com/dustinlit  
-**Project Type:** `Remote Sensing` `Urban Classification` `Change Detection`  
-**Technologies:** `ArcGIS Pro` `Landsat` `Unsupervised Classification` `Change Detection` `Hot Spot Analysis`  
+**Project Type:** `Hydrology` `Climate Analysis` `Machine Learning`  
+**Technologies:** `ArcGIS Pro` `TerraClimate` `Space Time Cube` `Random Forest` `Python`  
 **Last Updated:** March 2026
 
 ## Introduction 
