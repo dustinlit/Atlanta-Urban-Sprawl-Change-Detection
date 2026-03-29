@@ -1,10 +1,15 @@
 # Atlanta-Urban-Sprawl-Change-Detection
  
-Author: Dustin Littlefield \
-Date: February 24, 2026 \
- `Remote Sensing` `Change Detection` `Urban Sprawl` `Supervised Classification`
- <br>
-[GitHub Repository](https://github.com/dustinlit/Atlanta-Urban-Sprawl-Change-Detection)
+Code
+![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
+[![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/Atlanta-Urban-Sprawl-Change-Detection/)
+[![Repository](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/dustinlit/Atlanta-Urban-Sprawl-Change-Detection)
+
+**Author:** Dustin Littlefield  
+**Portfolio:** https://github.com/dustinlit  
+**Project Type:** `Remote Sensing` `Urban Classification` `Change Detection`  
+**Technologies:** `ArcGIS Pro` `Landsat` `Unsupervised Classification` `Change Detection` `Hot Spot Analysis`  
+**Last Updated:** March 2026
 
 ## Introduction 
 Urban Sprawl is the general term used to describe the outward expansion of development surrounding a metropolis area. This spread is usually driven by workers in the city who desire lower density suburban housing. Many large urban areas around the globe struggle to maintain the balance between outward growth and protection of the surrounding natural ecosystems. Unchecked expansion can have negative effects on ecological and public health of a region by the significant reduction of surrounding green spaces (Lopez-Aparicio, 2025).  
