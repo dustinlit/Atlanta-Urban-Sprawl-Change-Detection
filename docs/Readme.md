@@ -45,7 +45,7 @@ Figure 1 depicts the results of unsupervised classification of the Greater Atlan
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 1.</strong> Unsupervised classification of Atlanta Metropolis region. Imagery for 1999 was obtained from Landsat 7 and processed using 6 spectral bands. Imagery from 2021 was obtained from Landsat 8 and was processed with 7 bands. Clouds were present on 2021 imagery, mostly in southeastern region. None were present in 1999 imagery. <br>
+    <strong>Figure 1.</strong> Unsupervised classification of Atlanta Metropolis region. Imagery for 1999 was obtained from Landsat 7 and <br> processed using 6 spectral bands. Imagery from 2021 was obtained from Landsat 8 and was processed with 7 bands. <br> Clouds were present on 2021 imagery, mostly in southeastern region. None were present in 1999 imagery. <br>
     <em>Map Author: Dustin Littlefield PCS: WGS 1984 UTM Zone 16N Source: U.S. Geological Survey Landsat 8 Imagery</em>
   </figcaption>
   <img src="Figures/figure_1.jpg" width="700" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
@@ -64,7 +64,7 @@ The transition color method dictates the symbology of the output raster. For thi
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 2.</strong> Change detection of Greater Atlanta Metropolis from 1999 to 2021. Configured with categorical change method, changed only filter, and average color method. This method has poor delineation of lost forest land versus gained forest land.  <br>
+    <strong>Figure 2.</strong> Change detection of Greater Atlanta Metropolis from 1999 to 2021. Configured with categorical <br> change method, changed only filter, and average color method. This method has poor delineation of lost <br> forest land versus gained forest land.  <br>
     <em>Map Author: Dustin Littlefield PCS: WGS 1984 UTM Zone 16N Source: U.S. Geological Survey Landsat 8 Imagery</em>
   </figcaption>
   <img src="Figures/figure_2.jpg" width="600" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
@@ -72,7 +72,7 @@ The transition color method dictates the symbology of the output raster. For thi
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 3.</strong> Change detection of Greater Atlanta Metropolis from 1999 to 2021. Configured with categorical change method, changed only filter, and to color method. This method assigns the color to the result of the land change. It visually delineates regions where more forest is gained (Gwinnett County) and regions where the most forest is lost (Henry County)   <br>
+    <strong>Figure 3.</strong> Change detection of Greater Atlanta Metropolis from 1999 to 2021. Configured with categorical <br> change method, changed only filter, and to color method. This method assigns the color to the result of <br> the land change. It visually delineates regions where more forest is gained (Gwinnett County) and regions <br> where the most forest is lost (Henry County). <br>
     <em>Map Author: Dustin Littlefield PCS: WGS 1984 UTM Zone 16N Source: U.S. Geological Survey Landsat 8 Imagery</em>
   </figcaption>
   <img src="Figures/figure_3.jpg" width="600" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
@@ -85,16 +85,16 @@ Overall statistical analysis of urbanization shows that 34.4 percent of land in 
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Table 1.</strong> Overall summary of forest change detection in Greater Atlanta Metropolis (1999 -2001). <br>
   </figcaption>
-  <img src="Figures/table_1.jpg" width="450" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
+  <img src="Figures/table_1.jpg" width="550" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
 </figure>
 
 A spatial join was performed with the change detection layer and land use composition data collected by the Atlanta Regional Commission for further insight into the nature of urbanization. The land use data, obtained in 2009, the midpoint of the change epoch does not classify the entirety of the change period, but a clear trend in the direction of development is evident. By 2009, the majority of previously forested land has been converted to residential development, totaling over 200,000 acres (Table 2). Urban, commercial, and industrial account for approximately 5 percent, likely as support for rapid residential development.  Examination of the new housing construction patterns indicates that an overwhelming majority of new homes are either low or medium density (Table 3). This concentration on lower density development causes a wider spread of expansion as additional land is necessary for development. 
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Table 2.</strong> Land‑use composition (based on 2009 LandPro data) of areas that transitioned from forest to developed land between 1999 and 2021 in the Greater Atlanta metropolitan region. <br>
+    <strong>Table 2.</strong> Land‑use composition (based on 2009 LandPro data) <br> of areas that transitioned from forest to developed land <br> between 1999 and 2021 in the Greater Atlanta metropolitan region. <br>
   </figcaption>
-  <img src="Figures/table_2.jpg" width="300" alt="Land‑use composition">
+  <img src="Figures/table_2.jpg" width="350" alt="Land‑use composition">
 </figure>
 
 <p style="font-size:0.85em; margin-top:4px;">
@@ -106,25 +106,25 @@ A spatial join was performed with the change detection layer and land use compos
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Table 3.</strong> Summary of housing types on previously forested land converted to residential use (2009).  <br>
+    <strong>Table 3.</strong> Summary of housing types on previously forested <br>land converted to residential use (2009).  <br>
   </figcaption>
-  <img src="Figures/table_3.jpg" width="300" alt="Summary of housing types">
+  <img src="Figures/table_3.jpg" width="350" alt="Summary of housing types">
 </figure>
 
 The change detection analysis reveals some clear patterns to the expansion of the Atlanta Metro region. Development associated with forest loss is clearly focused among the periphery of the city, expanding strongly in all directions. Visually, the counties of Henry, Fayette and Forsythe show the largest amount of development. A further breakdown of the change detection raster indicates that these three counties saw over 40 percent of forest lost specifically for development (Figure 4). The core counties, Fulton, Cobb, and Dekalb had less change because much of the land was already urbanized before 1999.  
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 4.</strong> Urbanization and reforestation rates throughout the Counties of Atlanta Greater Metropolis Area. Percentage represents ratio of developed forest land in a county to total land classified in the county. 
+    <strong>Figure 4.</strong> Urbanization and reforestation rates throughout the Counties of Atlanta Greater Metropolis Area. Percentage represents <br> the ratio of developed forest land in a county to total land classified in the county. 
   </figcaption>
-  <img src="Figures/figure_4.jpg" width="700" alt="Urbanization and reforestation rates">
+  <img src="Figures/figure_4.jpg" width="750" alt="Urbanization and reforestation rates">
 </figure>
 
 Spatial analysis of the change detection provides deeper insight into the emerging patterns of expansion. A hot spot analysis using the Getis Gi* method (Figure 5) identifies areas where significant clusters of development are occurring. Developing hot spots closely follow the pattern of highway development with large hotspots concentrating around interstates 85 and 75. The northern hotspot emerges in Forsythe County following highway 19, a state highway constructed with similar traffic capacity to an interstate. This spatial pattern reflects the large number of commuters who work in the city but desire a more suburban living environment. The large cold spot in the core of the city is where land use is likely mature and fully developed so forested lands are relatively stable. Other cold spots exist in natural areas where development is either more expensive or undesired. Lake Altoona, in the northwest, is a sizeable lake at the beginning of the Appalachian foothills and Chattahoochee Hills, in the southwest, is a hilly region that is actively being preserved. 
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 5.</strong> Hot spot analysis of developed forest land conducted with Getis Gi* algorithm. Red hot spots represent statistically significant areas where forest loss is clustered, while blue spots represent areas with low levels of conversion. Highways are overlaid to illustrate spatial relationship between roadways and development.  <br>
+    <strong>Figure 5.</strong> Hot spot analysis of developed forest land conducted with Getis Gi* algorithm. Red hot spots represent statistically <br> significant areas where forest loss is clustered, while blue spots represent areas with low levels of conversion. Highways are <br> overlaid to illustrate spatial relationship between roadways and development.  <br>
     <em>Map Author: Dustin Littlefield PCS: WGS 1984 UTM Zone 16N Source: U.S. Geological Survey Landsat 8 Imagery</em>
   </figcaption>
   <img src="Figures/figure_5.jpg" width="700" alt="Hot spot analysis of developed forest land conducted with Getis Gi* algorithm">
