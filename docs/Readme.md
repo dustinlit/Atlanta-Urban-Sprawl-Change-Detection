@@ -1,4 +1,4 @@
-# Atlanta-Urban-Sprawl-Change-Detection
+# *Land‑Cover Classification and Change Detection of Urban Growth in the Atlanta Metropolitan Region (1999–2021)*
  
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
 [![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/Atlanta-Urban-Sprawl-Change-Detection/)
